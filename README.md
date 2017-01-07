@@ -1,18 +1,18 @@
 # MS_Regress-Matlab
 
-This repository provides functions (and examples scripts) for estimation, simulation and forecasting of a general Markov Regime Switching Regression in Matlab. 
+This repository provides functions (and examples scripts) for the estimation, simulation and forecasting of a general Markov Regime Switching Regression in Matlab. 
 
 Before using the package, make sure you read the pdf file (About the MS_Regress_Package.pdf) in the downloaded zip file. A copy of this paper can be found in [SSRN](https://ssrn.com/abstract=1714016).
 
 ## Instalation
 
-First, clone this repository or download it as a zip file (see choice in right side button of the webpage). 
+First, clone this repository or download it as a zip file (see download choice in right side button of the webpage). 
  
-Matlab works by reading files in the search path. In order to use the functions of MS_Regress, all you need to do is to tell matlab to look for the files in the m_Files folder (e.g. addpath('m_Files'). After that, all functions will be available to the user.
+Matlab works by reading files in the search path. In order to use the functions of MS_Regress, all you need to do is to tell matlab to look for the files in the m_Files folder (e.g. addpath('m_Files') of the zip file.  After that, all functions will be available to the user.
 
-The easiest way to get started is to run the example scripts provided in the root folder. They should work **as is**, without any modification.
+The easiest way to get started is to run the example scripts provided in the root folder. They should work **as is**, without any modification. You can modify the examples for you own dataset and custom model. 
 
-I also wrote a R/S+ version of the package (fMarkovSwitching). It is public available in the R Metrics project and in R Code section of my [website](https://sites.google.com/site/marceloperlin/). Please be aware that the R version in no longer being maintained so it is actually an older version of the matlab package with only the basic features.   
+I also wrote a R version of the package (fMarkovSwitching). It is public available in the R Metrics project and in R Code section of my [website](https://sites.google.com/site/marceloperlin/). Please be aware that the R version in no longer being maintained so it is actually an older version of the matlab package with only the basic features.   
 
 ## Features of the package: 
 
