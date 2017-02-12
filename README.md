@@ -34,7 +34,6 @@ I also wrote a R version of the package (fMarkovSwitching). It is public availab
 - It cannot estimate a model with time varying transition probabilities (TVPT). But, Zhuanxin Ding has developed a matlab package for TVTP models based on MS_Regress. You can access it here;
 - It does not support models with garch type of filters for conditional volatility;
 
- 
 
 ## Required Products:  
 
