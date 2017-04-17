@@ -1,10 +1,10 @@
 % Error checking lines
 
-if nargin<4
+if my_nargin<4
     error('The function needs at least 4 arguments');
 end
 
-if nargin==4    % Default values when advOpt is not an input
+if my_nargin==4    % Default values when advOpt is not an input
     advOpt.distrib='Normal';
     advOpt.std_method=1;
     advOpt.useMex=0;

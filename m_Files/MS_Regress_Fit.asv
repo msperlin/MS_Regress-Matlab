@@ -17,11 +17,13 @@
 
 function [Spec_Output]=MS_Regress_Fit(dep,indep,k,S,advOpt)
 
-% build nargin withing script (Mathworks you suck!)
-my_nargin = nargin();
-
 % Error checking lines
-checkInputs(); % checking if inputs variables are OK
+
+% DEPRECATED (matlab 2016 does not allow nargin call )
+%checkInputs(); % checking if inputs variables are OK
+
+% build nargin withing script (Mathworks you suck!)
+my.nargin = nargin();
 
 % Error checking lines
 

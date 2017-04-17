@@ -39,6 +39,47 @@ I also wrote a R version of the package (fMarkovSwitching). It is public availab
 
 Optimization, Statistics
 
+## Versions
+
+Revision 17/04/2017 (ver 1.11)
+- Fixed nargin bug
+- Fixed constCoeff bug
+
+Revision 19/04/2015 (ver 1.09)
+- Fixed  typos in manual
+
+Revision 30/10/2014 (ver 1.08)
+- Fixed bug in calculation of transition matrix standard error when using fminsearch and fminunc (thanks Wembo Zhou for pointing it out)
+
+Revision 21/02/2014 (ver 1.07)
+- Fixed small bug in calculation of standard deviation forecast
+
+Revision 15/07/2013 (ver 1.06)
+- Fixed small bug in the error checking part of the code
+
+Revision 20/05/2013 (ver 1.05)
+- Fixed bug in constrained estimation (the use of the new optimizer were in conflict with old algorithm)
+
+Revision 25/01/2013 (ver 1.04)
+- Fixed bug in the "print screen" function for MS-VAr models
+
+Revision 13/01/2013
+- Fixed bug in the calculation of GED probability distribution
+
+Revision 19/09/2012
+- Fixed bug in the estimation of models with t and GED distribution with the new algorithm
+
+Revision 19/09/2012
+- Fixed bug on standard error calculation (this only affects the code after last update (09/08/2012), the previous version is Ok).
+
+Revision 09/08/2012
+- Added the possibility of user choosing the optimization function (fmincon, fminsearch or fminunc)
+- Changes in pdf manual
+
+Revision 30/05/2012
+- Improvements in pdf manual
+
+
 ## References:
     
 Alexander, C. (2008) ‘Market Risk Analysis: Practical Financial Econometrics’ Wiley. 
