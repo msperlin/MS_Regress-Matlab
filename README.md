@@ -4,6 +4,8 @@ This repository provides functions (and examples scripts) for the estimation, si
 
 Before using the package, make sure you read the pdf file (About the MS_Regress_Package.pdf) in the downloaded zip file. A copy of this paper can be found in [SSRN](https://ssrn.com/abstract=1714016).
 
+**Be aware that this Matlab code is no longer being maintained. I switched to R back in 2015 and never looked back..**
+
 ## Instalation
 
 First, clone this repository or download it as a zip file (see download choice in right side button of the webpage). 
